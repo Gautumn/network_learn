@@ -29,6 +29,7 @@ int main(void) {
 
     while(1) {
         /// get data from command line
+        printf("Input your message:");
         memset(cmdLineBuff, 0, sizeof(cmdLineBuff));
         fgets(cmdLineBuff, sizeof(cmdLineBuff), stdin);
         /// send data to server
